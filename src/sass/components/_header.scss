@@ -57,4 +57,31 @@ h2 {
             margin-left: 35px;
         }
     }
+
+    @media screen and(max-width:1400px) {
+        &__menu{
+            ul{
+                li{
+                    :first-child{
+                        margin-right: 50px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and(max-width:1200px) {
+        &__menu{
+            ul{
+                li{
+
+                    a{
+                        font-size: 18px;
+                    }
+                    :first-child{
+                        margin-right: 35px;
+                    }
+                }
+            }
+        }
+    }
 }
