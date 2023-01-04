@@ -1,22 +1,60 @@
-.header{
+h1,
+h2 {
+    font-family: 'Gergia', serif;
+}
+
+.header {
     display: flex;
     align-items: center;
     height: 85px;
 
-    &__menu{
-         
-        margin-top: 5px;
-        ul{
+    &__menu {
+
+        ul {
             display: flex;
             justify-content: space-between;
 
-            li{
-                a{
+            li {
+                a {
                     text-decoration: none;
-                    color: #000000;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #292929;
+                }
+
+                :hover {
+                    color: #615f5f;
+                }
+
+                :first-child{
+                    margin-right: 72px;
                 }
             }
+
+            
+            
         }
 
+    }
+
+    &__info {
+        display: flex;
+        font-weight: 400;
+        font-size: 20px;
+
+        &_text {
+            text-decoration: none;
+            color: #292929;
+        }
+
+        &_btn {
+            padding: 11px 50px 13px;
+            background: #01996D;
+            border: 1px solid #01996D;
+            border-radius: 4px;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-left: 35px;
+        }
     }
 }
