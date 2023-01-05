@@ -25,4 +25,15 @@
         color: #484848;
         max-width: 420px;
     }
+
+    &__btn {
+        padding: 20px 50px;
+        background: #01996D;
+        border: 1px solid #01996D;
+        border-radius: 4px;
+        font-size: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 580px;
+    }
 }
