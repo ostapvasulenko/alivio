@@ -41,16 +41,46 @@
         top: 580px;
     }
 
-    @media screen and(max-width:430px) {
-        &__title{
-            top: 220px;
+    @media screen and(max-width:992px) {
+        &__img {
+            height: 600px;
+        }
+        &__title {
+            top: 170px;
             font-size: 54px
         }
+
         &__text {
-            top: 400px; 
+            top: 340px;
         }
+
         &__btn {
-            top: 540px;
+            top: 480px;
+        }
+    }
+
+    @media screen and(max-width:767px) {
+        &__title {
+            top: 170px;
+            font-size: 54px
+        }
+
+        &__text {
+            top: 330px;
+        }
+
+        &__btn {
+            top: 460px;
+        }
+        &__img {
+            height: 600px;
+        }
+    }
+    @media screen and(max-width:575px){
+        &__text {
+            font-size: 18px;
+            max-width: 380px;
+            padding-right: 10px;
         }
     }
 }
