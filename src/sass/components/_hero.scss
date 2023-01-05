@@ -40,4 +40,17 @@
         position: absolute;
         top: 580px;
     }
+
+    @media screen and(max-width:430px) {
+        &__title{
+            top: 220px;
+            font-size: 54px
+        }
+        &__text {
+            top: 400px; 
+        }
+        &__btn {
+            top: 540px;
+        }
+    }
 }
