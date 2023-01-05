@@ -24,7 +24,7 @@
         line-height: 150%;
     }
 
-        &__item {
+        &__itemfirst {
 
             margin-top: 52px;
             
@@ -38,6 +38,22 @@
             }
             &_img{
                 margin-top: 60px;
+            }
+        }
+        &__itemtwo {
+
+            margin-top: 340px;
+            
+            &_text {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                color: #424242;
+                padding-right: 30px;
+                margin-top: 10px;
+            }
+            &_img{
+                margin-top: 38px;
             }
         }
     
