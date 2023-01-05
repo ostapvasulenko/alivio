@@ -1,0 +1,43 @@
+.step{
+    margin-top: 170px;
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        color: #424242;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        color: #01996D;
+        margin-top: 10px;
+        padding-right: 80px;
+    }
+
+    &__text {
+        text-align: justify;
+        font-weight: 500;
+        font-size: 20px;
+        color: #424242;
+        margin-top: 20px;
+        line-height: 150%;
+    }
+
+    &__item {
+
+        margin-top: 52px;
+        
+        &_text {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #424242;
+            padding-right: 30px;
+            margin-top: 10px;
+        }
+        &_img{
+            margin-top: 60px;
+        }
+    }
+}
