@@ -38,9 +38,10 @@
             }
             &_img{
                 margin-top: 60px;
+                width: 100%;
             }
         }
-        &__itemtwo {
+        &__itemnext {
 
             margin-top: 340px;
             
@@ -54,6 +55,25 @@
             }
             &_img{
                 margin-top: 38px;
+                width: 100%;
+            }
+        }
+
+        &__itemlast {
+
+            margin-top: 106px;
+            
+            &_text {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;
+                color: #424242;
+                padding-right: 10px;
+                margin-top: 10px;
+            }
+            &_img{
+                margin-top: 38px;
+                width: 100%;
             }
         }
     
