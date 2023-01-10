@@ -1,6 +1,6 @@
 .info {
     background-color: #245852;
-    height: 922px;
+    padding: 230px 0px 176px 0px;
     margin-top: 50px;
 
     &__title {
@@ -8,7 +8,7 @@
         font-size: 50px;
         color: #FFFFFF;
         max-width: 520px;
-        margin-top: 310px;
+        margin-top: 70px;
     }
 
     &__subtitle {
@@ -27,4 +27,33 @@
         font-size: 20px;
         color: #FFFFFF;
     }
+
+    &__video{
+
+        position: relative;
+        &_img{
+            max-width: 100%;
+            height: 456px;
+            border-radius: 16px
+        }
+
+        &_play{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 46%;
+            top: 46%;
+        }
+    }
+
+    @media screen and (max-width:1200px) {
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+    }
+
+    
 }
