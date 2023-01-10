@@ -86,4 +86,35 @@
 
         }
     }
+
+    @media screen and(max-width:576px) {
+        .container {
+            padding: 40px 12px 60px 12px;
+        }
+
+        &__image {
+            padding-right: 0;
+
+            &_first {
+                margin-left: 0;
+            }
+
+            &_last {
+                display: none;
+            }
+        }
+
+        &__info {
+            &_subtitle {
+                margin-top: 20px;
+                font-size: 20px;
+            }
+            &_title{
+                font-size: 36px;
+            }
+            &_text{
+                font-size: 18px;
+            }
+        }
+    }
 }
