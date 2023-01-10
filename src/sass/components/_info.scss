@@ -8,7 +8,7 @@
         font-size: 50px;
         color: #FFFFFF;
         max-width: 520px;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     &__subtitle {
@@ -28,32 +28,103 @@
         color: #FFFFFF;
     }
 
-    &__video{
+    &__video {
 
         position: relative;
-        &_img{
+
+        &_img {
             max-width: 100%;
-            height: 456px;
+            height: 400px;
             border-radius: 16px
         }
 
-        &_play{
+        &_play {
             width: 80px;
             height: 80px;
             position: absolute;
-            left: 46%;
-            top: 46%;
+            left: 43%;
+            top: 43%;
         }
     }
 
     @media screen and (max-width:1200px) {
+
         &__title {
             font-size: 40px;
         }
+
         &__subtitle {
             font-size: 20px;
         }
+
     }
 
-    
+    @media screen and (max-width: 992px) {
+        & {
+            padding: 50px 0px 50px 0px;
+        }
+
+        &__subtitle {
+            text-align: center;
+        }
+
+        &__title {
+            font-size: 40px;
+            margin-top: 0;
+            text-align: center;
+            max-width: none;
+        }
+
+        &__btn {
+            margin-bottom: 30px;
+            margin-left: 33.3%;
+        }
+
+        &__video {
+
+            &_play {
+                left: 45%;
+                top: 42%;
+            }
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        &__btn {
+            margin-left: 28%;
+            margin-top: 20px;
+        }
+
+        &__video {
+
+            &_img {
+                height: 300px;
+            }
+        }
+    }
+
+    @media screen and (max-width:576px) {
+        &__btn {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        &__video {
+
+            &_play {
+                left: 40%;
+                top: 40%;
+            }
+        }
+    }
+
+
 }
