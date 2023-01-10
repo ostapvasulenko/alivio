@@ -1,0 +1,30 @@
+.info {
+    background-color: #245852;
+    height: 922px;
+    margin-top: 50px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        color: #FFFFFF;
+        max-width: 520px;
+        margin-top: 310px;
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 23px;
+        color: #FFFFFF;
+        margin-top: 32px;
+    }
+
+    &__btn {
+        background: #01996D;
+        border: 1px solid #01996D;
+        border-radius: 4px;
+        padding: 20px 50px 24px;
+        margin-top: 56px;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+}
